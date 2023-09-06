@@ -8,7 +8,7 @@ int main () {
     scanf ("%f", &primeira_nota);
     printf ("Informe a segunda nota:");
     scanf ("%f", &segunda_nota);
-    media= primeira_nota + segunda_nota / 2;
-    printf ("A soma da sua nota e: %.2lf", media);
+    media= (primeira_nota + segunda_nota) / 2;
+    printf ("A media da sua nota e: %.2lf", media);
     return 0;
 }
